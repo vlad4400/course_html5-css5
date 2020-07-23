@@ -60,3 +60,35 @@ body {
   margin-top: -84px;
   margin-right: 3px;
 }
+.sec-description {
+  padding: 18px 51px;
+}
+.sec-description:after {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both;
+}
+.sec-description-h2 {
+  color: #445162;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-bottom: 22px;
+}
+.sec-description-p {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 700px;
+}
+.sec-description-img {
+  display: block;
+  width: 430px;
+  height: 245px;
+  background-color: #445162;
+  float: right;
+  margin-top: -202px;
+  margin-right: -1px;
+}
