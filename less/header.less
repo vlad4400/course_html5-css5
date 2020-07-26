@@ -1,24 +1,18 @@
 .header {
-  padding: 38px 46px;
+  padding: 38px 50px 44px 46px;
   background-color: @back-light-color;
   color: @text-light-color;
-  &:after {
-    content: "";
-    display: block;
-    width: 100%;
-    clear: both;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   &-title {
-    margin: 0;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
     font-size: 60px;
     font-weight: 400;
-    margin-bottom: 28px;
+    margin: 0 0 28px;
   }
   &-list {
     margin: 0;
-    padding-left: 40px;
-    float: left;
     &-item {
       list-style: none;
       text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
@@ -43,8 +37,6 @@
     width: 469px;
     height: 214px;
     background-color: @text-light-color;
-    float: right;
-    margin-top: -84px;
-    margin-right: 3px;
+    margin: 12px 0 0;
   }
 }

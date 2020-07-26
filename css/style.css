@@ -7,27 +7,21 @@ body {
   font-family: Arial;
 }
 .header {
-  padding: 38px 46px;
+  padding: 38px 50px 44px 46px;
   background-color: #445162;
   color: #ffffff;
-}
-.header:after {
-  content: "";
-  display: block;
-  width: 100%;
-  clear: both;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .header-title {
-  margin: 0;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
   font-size: 60px;
   font-weight: 400;
-  margin-bottom: 28px;
+  margin: 0 0 28px;
 }
 .header-list {
   margin: 0;
-  padding-left: 40px;
-  float: left;
 }
 .header-list-item {
   list-style: none;
@@ -52,9 +46,7 @@ body {
   width: 469px;
   height: 214px;
   background-color: #ffffff;
-  float: right;
-  margin-top: -84px;
-  margin-right: 3px;
+  margin: 12px 0 0;
 }
 .sec-description {
   padding: 43px 50px;
