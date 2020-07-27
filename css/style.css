@@ -133,3 +133,55 @@ body {
 .sec-dignity-list-item[open] .sec-dignity-list-item-title:before {
   content: "−";
 }
+.sec-screenshots {
+  color: #445162;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 50px;
+  justify-content: space-between;
+}
+.sec-screenshots-title {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  width: 100%;
+  text-align: center;
+}
+.sec-screenshots-item {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin: 0 0 20px 0;
+  justify-content: space-between;
+}
+.sec-screenshots-item:nth-child(4),
+.sec-screenshots-item:nth-child(5) {
+  margin: 0;
+}
+.sec-screenshots-item-photo {
+  display: block;
+  width: 200px;
+  height: 150px;
+  background-color: #445162;
+  margin: 0 20px 0 0;
+}
+.sec-screenshots-item-txt {
+  width: 63%;
+}
+.sec-screenshots-item-txt-h3 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 84%;
+  margin: 0 0 20px 0;
+}
+.sec-screenshots-item-txt-p {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 84%;
+  margin: 0 0 0 0;
+}
