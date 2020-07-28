@@ -82,7 +82,7 @@ body {
 }
 .sec-dignity {
   box-sizing: border-box;
-  padding: 50px;
+  padding: 50px 50px 24px;
   color: #445162;
   display: flex;
   flex-wrap: wrap;
@@ -148,6 +148,7 @@ body {
   line-height: 36px;
   width: 100%;
   text-align: center;
+  margin: 0 0 20px;
 }
 .sec-screenshots-item {
   display: flex;
