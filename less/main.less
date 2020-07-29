@@ -30,7 +30,6 @@
     margin: 7px 0 0;
   }
 }
-
 .sec-dignity {
   box-sizing: border-box;
   padding: 50px 50px 24px;
@@ -38,6 +37,7 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  background-color: @back-light-gray-color;
   &-title {
     font-size: 30px;
     font-weight: 400;
@@ -84,7 +84,6 @@
     }
   }
 }
-
 .sec-screenshots {
   color: @text-dark-color;
   display: flex;
@@ -134,6 +133,72 @@
         line-height: 24px;
         width: 84%;
         margin: 0 0 0 0;
+      }
+    }
+  }
+}
+.sec-reviews {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 50px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  background-color: @back-light-gray-color;
+  &-title {
+    color: @back-light-color;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 24px;
+  }
+  &-item {
+    display: flex;
+    width: 49%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 16px;
+    &:nth-child(4),
+    &:nth-child(5){
+      margin: 0;
+    }
+    &-photo {
+      display: block;
+      width: 75px;
+      height: 75px;
+      background-color: @back-light-color;
+      border-radius: 50%;
+    }
+    &-comment {
+      color: @text-normal-color;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 18px;
+      display: block;
+      width: 472px;
+      padding: 16px;
+      box-sizing: border-box;
+      border-radius: 5px;
+      background-color: @back-gray-color;
+      position: relative;
+      margin: 0;
+      font-style: italic;
+      &:before {
+        content: "";
+        display: block;
+        border: 12px solid transparent;
+        border-right: 12px solid @back-gray-color;
+        position: absolute;
+        left: -24px;
+        top: 29px;
+      }
+      &-name {
+        color: @text-grizzly-color;
+        display: block;
+        margin: 5px 0 0;
+        font-style: normal;
       }
     }
   }

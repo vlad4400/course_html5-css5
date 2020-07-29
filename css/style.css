@@ -87,6 +87,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  background-color: #f5f5f5;
 }
 .sec-dignity-title {
   font-size: 30px;
@@ -185,4 +186,70 @@ body {
   line-height: 24px;
   width: 84%;
   margin: 0 0 0 0;
+}
+.sec-reviews {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 50px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+}
+.sec-reviews-title {
+  color: #445162;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  width: 100%;
+  text-align: center;
+  margin: 0 0 24px;
+}
+.sec-reviews-item {
+  display: flex;
+  width: 49%;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 0 16px;
+}
+.sec-reviews-item:nth-child(4),
+.sec-reviews-item:nth-child(5) {
+  margin: 0;
+}
+.sec-reviews-item-photo {
+  display: block;
+  width: 75px;
+  height: 75px;
+  background-color: #445162;
+  border-radius: 50%;
+}
+.sec-reviews-item-comment {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  display: block;
+  width: 472px;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #cccccc;
+  position: relative;
+  margin: 0;
+  font-style: italic;
+}
+.sec-reviews-item-comment:before {
+  content: "";
+  display: block;
+  border: 12px solid transparent;
+  border-right: 12px solid #cccccc;
+  position: absolute;
+  left: -24px;
+  top: 29px;
+}
+.sec-reviews-item-comment-name {
+  color: #989898;
+  display: block;
+  margin: 5px 0 0;
+  font-style: normal;
 }
