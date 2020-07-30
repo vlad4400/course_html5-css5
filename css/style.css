@@ -443,6 +443,32 @@ body {
 .footer-contacts {
   width: 275px;
   height: 100px;
+  box-sizing: border-box;
+  padding: 25px 20px;
+}
+.footer-contacts-list {
+  display: flex;
+  flex-direction: column;
+}
+.footer-contacts-list-item {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 0 22px;
+}
+.footer-contacts-link {
+  display: flex;
+  flex-direction: row;
+  width: 240px;
+  height: 40px;
+  justify-content: space-between;
+}
+.footer-contacts-link-item {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
   background-color: #f5f5f5;
 }
 .footer-copyright-holders {
