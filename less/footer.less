@@ -1,0 +1,133 @@
+.footer {
+  background-color: @back-light-color;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 50px 0 0 0;
+  justify-content: center;
+  &-title {
+    width: 100%;
+    text-align: center;
+    color: @text-light-color;
+    margin: 0 0 5px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+  }
+  @content-width: 275px;
+  &-form {
+    @width: 100%;
+    @padding: 10px;
+    @border-radius: 5px;
+    @margin: 0 0 20px;
+    width: @content-width + 275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 25px;
+    color: @text-dark-color;
+    &-name {
+      width: @width;
+      box-sizing: border-box;
+      padding: @padding;
+      border-radius: @border-radius;
+      margin: @margin;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      height: 40px;
+      outline: none;
+      border: 1px solid @text-light-color;
+      &:hover {
+        border: 1px solid black;
+      }
+      &:focus {
+        background-color: lightyellow;;
+      }
+    }
+    &-mail {
+      width: @width;
+      box-sizing: border-box;
+      padding: @padding;
+      border-radius: @border-radius;
+      margin: @margin;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      height: 40px;
+      outline: none;
+      border: 1px solid @text-light-color;
+      &:hover {
+        border: 1px solid black;
+      }
+      &:focus {
+        background-color: lightyellow;;
+      }
+    }
+    &-textarea {
+      width: @width;
+      box-sizing: border-box;
+      padding: @padding;
+      padding-top: 5px;
+      border-radius: @border-radius;
+      margin: @margin;
+      resize: none;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      height: 170px;
+      outline: none;
+      border: 1px solid @text-light-color;
+      &:hover {
+        border: 1px solid black;
+      }
+      &:focus {
+        background-color: lightyellow;;
+      }
+    }
+    &-btn {
+      color: @text-dark-color;
+      border-radius: @border-radius;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      text-transform: uppercase;
+      width: 140px;
+      height: 40px;
+      outline: none;
+      border: 1px solid @text-light-color;
+      background-color: @text-light-color;
+      &:hover {
+        color: @text-light-color;
+        background-color: @text-dark-color;
+      }
+      &:active {
+        color: @text-dark-color;
+        background-color: @text-light-color;
+      }
+    }
+  }
+  &-contacts {
+    width: @content-width;
+    height: 100px;
+    background-color: @back-light-gray-color;
+    &-list {
+
+    }
+    &-link {
+
+    }
+  }
+  &-copyright-holders {
+    background-color: @back-light-gray-color;
+    color: @text-dark-color;
+    width: 100%;
+    margin: 24px 0 0;
+    text-align: center;
+    padding: 5px;
+    color: @text-dark-color;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
