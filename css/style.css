@@ -282,7 +282,9 @@ body {
   font-weight: 400;
   line-height: 30px;
   text-align: center;
-  margin: 12px;
+  margin: 0;
+  padding: 12px;
+  box-sizing: border-box;
 }
 .sec-prices-item-value {
   color: #445162;
@@ -350,14 +352,15 @@ body {
   font-size: 30px;
   font-weight: 400;
   line-height: 36px;
+  margin: 0 0 12px;
 }
 .footer-form {
-  width: 550px;
+  width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-sizing: border-box;
-  padding: 25px;
+  padding: 12px;
+  margin: 0;
   color: #445162;
 }
 .footer-form-name {
@@ -441,10 +444,10 @@ body {
   background-color: #ffffff;
 }
 .footer-contacts {
-  width: 275px;
-  height: 100px;
+  width: 248px;
   box-sizing: border-box;
-  padding: 25px 20px;
+  padding: 0;
+  margin: 3px 0 0 33px;
 }
 .footer-contacts-list {
   display: flex;
@@ -455,10 +458,10 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  margin: 0 0 22px;
+  margin: 0 0 11px;
 }
-.footer-contacts-list-item i {
-  margin-right: 10px;
+.footer-contacts-list-item-icon {
+  margin: 6px 0 0;
   font-size: 24px;
   line-height: 30px;
 }
@@ -474,6 +477,7 @@ body {
   width: 240px;
   height: 40px;
   justify-content: space-between;
+  margin: 20px 0 0;
 }
 .footer-contacts-link-item {
   display: block;
@@ -486,16 +490,16 @@ body {
   background-position: -2px;
 }
 .footer-contacts-link-item:nth-child(2) {
-  background-position: 41px;
+  background-position: -51px;
 }
 .footer-contacts-link-item:nth-child(3) {
-  background-position: 90px;
+  background-position: -100px;
 }
 .footer-contacts-link-item:nth-child(4) {
-  background-position: 140px;
+  background-position: -149px;
 }
 .footer-contacts-link-item:nth-child(5) {
-  background-position: 189px;
+  background-position: -199px;
 }
 .footer-contacts-link-item:hover {
   background-color: black;
@@ -512,4 +516,5 @@ body {
   color: #445162;
   font-size: 12px;
   line-height: 18px;
+  margin: 40px 0 0;
 }

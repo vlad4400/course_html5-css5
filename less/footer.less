@@ -13,19 +13,19 @@
     font-size: 30px;
     font-weight: 400;
     line-height: 36px;
+    margin: 0 0 12px;
   }
-  @content-width: 275px;
   &-form {
     @width: 100%;
     @padding: 10px;
     @border-radius: 5px;
     @margin: 0 0 20px;
-    width: @content-width + 275px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-sizing: border-box;
-    padding: 25px;
+    padding: 12px;
+    margin: 0;
     color: @text-dark-color;
     &-name {
       width: @width;
@@ -109,10 +109,10 @@
     }
   }
   &-contacts {
-    width: @content-width;
-    height: 100px;
+    width: 248px;
     box-sizing: border-box;
-    padding: 25px 20px;
+    padding: 0;
+    margin: 3px 0 0 33px;
     &-list {
       display: flex;
       flex-direction: column;
@@ -121,9 +121,9 @@
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
-        margin: 0 0 22px;
-        & i {
-          margin-right: 10px;
+        margin: 0 0 11px;
+        &-icon {
+          margin: 6px 0 0;
           font-size: 24px;
           line-height: 30px;
         }
@@ -141,6 +141,7 @@
       width: 240px;
       height: 40px;
       justify-content: space-between;
+      margin: 20px 0 0;
       &-item {
         display: block;
         width: 40px;
@@ -151,16 +152,16 @@
           background-position: -2px;
         }
         &:nth-child(2) {
-          background-position: 41px;
+          background-position: -51px;
         }
         &:nth-child(3) {
-          background-position: 90px;
+          background-position: -100px;
         }
         &:nth-child(4) {
-          background-position: 140px;
+          background-position: -149px;
         }
         &:nth-child(5) {
-          background-position: 189px;
+          background-position: -199px;
         }
         &:hover {
           background-color: black;
@@ -181,5 +182,6 @@
     color: @text-dark-color;
     font-size: 12px;
     line-height: 18px;
+    margin: 40px 0 0;
   }
 }
