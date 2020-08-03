@@ -1,0 +1,291 @@
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/montserrat/Montserrat-Thin.ttf);
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/montserrat/Montserrat-ThinItalic.ttf);
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/montserrat/Montserrat-ExtraLight.ttf);
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/montserrat/Montserrat-ExtraLightItalic.ttf);
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/montserrat/Montserrat-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/montserrat/Montserrat-LightItalic.ttf);
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/montserrat/Montserrat-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/montserrat/Montserrat-Italic.ttf);
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/montserrat/Montserrat-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/montserrat/Montserrat-MediumItalic.ttf);
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/montserrat/Montserrat-SemiBold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/montserrat/Montserrat-SemiBoldItalic.ttf);
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/montserrat/Montserrat-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/montserrat/Montserrat-BoldItalic.ttf);
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/montserrat/Montserrat-ExtraBold.ttf);
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/montserrat/Montserrat-ExtraBoldItalic.ttf);
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/montserrat/Montserrat-Black.ttf);
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/montserrat/Montserrat-BlackItalic.ttf);
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: roleway;
+  src: url(../fonts/roleway/Raleway-Thin.ttf);
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: roleway;
+  src: url(../fonts/roleway/Raleway-ThinItalic.ttf);
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: roleway;
+  src: url(../fonts/roleway/Raleway-ExtraLight.ttf);
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: roleway;
+  src: url(../fonts/roleway/Raleway-ExtraLightItalic.ttf);
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: roleway;
+  src: url(../fonts/roleway/Raleway-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: roleway;
+  src: url(../fonts/roleway/Raleway-LightItalic.ttf);
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: roleway;
+  src: url(../fonts/roleway/Raleway-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: roleway;
+  src: url(../fonts/roleway/Raleway-Italic.ttf);
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: roleway;
+  src: url(../fonts/roleway/Raleway-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: roleway;
+  src: url(../fonts/roleway/Raleway-MediumItalic.ttf);
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: roleway;
+  src: url(../fonts/roleway/Raleway-SemiBold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: roleway;
+  src: url(../fonts/roleway/Raleway-SemiBoldItalic.ttf);
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: roleway;
+  src: url(../fonts/roleway/Raleway-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: roleway;
+  src: url(../fonts/roleway/Raleway-BoldItalic.ttf);
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: roleway;
+  src: url(../fonts/roleway/Raleway-ExtraBold.ttf);
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: roleway;
+  src: url(../fonts/roleway/Raleway-ExtraBoldItalic.ttf);
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: roleway;
+  src: url(../fonts/roleway/Raleway-Black.ttf);
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: roleway;
+  src: url(../fonts/roleway/Raleway-BlackItalic.ttf);
+  font-weight: 900;
+  font-style: italic;
+}
+body {
+  margin: 0;
+}
+.container {
+  width: 1920px;
+  margin: 0 auto;
+  font-family: montserrat, sans-serif;
+}
+.header {
+  background-image: url(../img/header-background.jpg);
+  background-color: #b0aeb9;
+  color: #ffffff;
+  background-size: cover;
+  height: 1024px;
+}
+.header-content {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(15, 15, 15, 0.685);
+  box-sizing: border-box;
+  padding: 40px 150px 42px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.header-content-logo {
+  font-family: roleway;
+  font-size: 34px;
+  font-weight: 400;
+  letter-spacing: -1.36px;
+  position: relative;
+  padding: 8px 0 0 67px;
+  margin: 0 0 0 226px;
+}
+.header-content-logo:before {
+  content: '';
+  display: block;
+  width: 64px;
+  height: 56px;
+  background-image: url(../img/logos.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.header-content-menu {
+  display: flex;
+  width: 400px;
+  flex-direction: row;
+  margin: 18px 0 0 219px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.header-content-menu-item {
+  text-decoration: none;
+  color: #ffffff;
+}
+.header-content-main-subtitle {
+  font-size: 36px;
+  font-weight: 500;
+}
+.header-content-main-title {
+  font-size: 52px;
+  font-weight: 400;
+}
+.header-content-main-text {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+.header-content-main-btn {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  text-transform: uppercase;
+}
