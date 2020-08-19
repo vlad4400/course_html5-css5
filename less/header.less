@@ -9,7 +9,7 @@
     height: 100%;
     background-color: rgba(15, 15, 15, 0.685);
     box-sizing: border-box;
-    padding: 40px 150px 42px;
+    padding: 40px 150px 40px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -34,60 +34,157 @@
     }
     &-menu {
       display: flex;
-      width: 400px;
       flex-direction: row;
       margin: 18px 0 0 219px;
       font-size: 14px;
       font-weight: 300;
+      height: 20px;
       &-item {
         text-decoration: none;
         color: @color-light;
-        margin-right: 30px;
+        margin: 3px 28px 0 0;
+        &:hover {
+          color: @color-ginger;
+        }
+        &:active {
+          color: @color-light;
+          cursor: wait;
+        }
       }
     }
     &-cart {
-
+      background-image: url(../img/icon-cart.png);
+      width: 18px;
+      height: 24px;
+      margin: 15px 0 0 35px;
     }
     &-form {
+      width: 10%;
       &-search {
-
+        background-image: url(../img/icon-search.png);
+        width: 24px;
+        height: 24px;
+        margin: 15px 0 0 28px;
       }
       &-input {
 
       }
     }
-    &-btn {
-      &-left {
-
+    &-btn-left {
+      /*fill: %23fff*/
+      background-image: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" width="40" height="73" viewBox="0 0 40 73"><g><g opacity=".5"><path d="M38.026 72.98L.005 36.497 38.026.018l1.969 2.004L4.066 36.498l35.929 34.479z"/><path fill="%23FFF" d="M38.026 72.98L.005 36.497 38.026.018l1.969 2.004L4.066 36.498l35.929 34.479z"/></g></g></svg>');
+      width: 10%;
+      background-repeat: no-repeat;
+      background-position: left;
+      &:hover {
+        /*fill: %23d3c1ad*/
+        background-image: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" width="40" height="73" viewBox="0 0 40 73"><g><g opacity=".5"><path d="M38.026 72.98L.005 36.497 38.026.018l1.969 2.004L4.066 36.498l35.929 34.479z"/><path fill="%23d3c1ad" d="M38.026 72.98L.005 36.497 38.026.018l1.969 2.004L4.066 36.498l35.929 34.479z"/></g></g></svg>');
+        cursor: pointer;
       }
-      &-right {
-
+      &:active {
+        /*fill: %23fff*/
+        background-image: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" width="40" height="73" viewBox="0 0 40 73"><g><g opacity=".5"><path d="M38.026 72.98L.005 36.497 38.026.018l1.969 2.004L4.066 36.498l35.929 34.479z"/><path fill="%23FFF" d="M38.026 72.98L.005 36.497 38.026.018l1.969 2.004L4.066 36.498l35.929 34.479z"/></g></g></svg>');
       }
     }
     &-main {
+      width: 80%;
+      padding: 0px 20%;
+      box-sizing: border-box;
+      align-self: center;
       &-subtitle {
         font-size: 36px;
         font-weight: 500;
+        margin: 0px 0 4px 0;
+        font-family: raleway;
+        text-align: center;
       }
       &-title {
         font-size: 52px;
-        font-weight: 400;
+        font-weight: 800;
+        margin: 0 0 15px 0;
+        font-family: raleway;
+        letter-spacing: 0.4px;
+        word-spacing: 1.8px;
+        text-align: center;
       }
       &-text {
         font-size: 16px;
         font-weight: 300;
         line-height: 24px;
+        margin: 0 0 48px 0;
+        text-align: center;
       }
       &-btn {
         font-size: 14px;
-        font-weight: 400;
+        font-weight: 700;
         line-height: 23px;
         text-transform: uppercase;
+        font-family: raleway;
+        background-color: #998675;
+        margin: 0;
+        width: 170px;
+        height: 53px;
+        margin: 0 auto 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        box-shadow: inset 0 -3px 0 #736357;
+        cursor: pointer;
+        &:hover {
+          background-color: #ccb9a8;
+          color: #000;
+        }
+        &:active {
+          background-color: #998675;
+          color: @color-light;
+          cursor: wait;
+        }
+      }
+    }
+    &-btn-right {
+      /*fill: %23fff*/
+      background-image: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" width="40" height="73" viewBox="0 0 40 73"><g><g><path d="M1.974 72.98l38.021-36.482L1.974.018.004 2.022l35.93 34.476L.004 70.977z"/><path fill="%23fff" d="M1.974 72.98l38.021-36.482L1.974.018.004 2.022l35.93 34.476L.004 70.977z"/></g></g></svg>');
+      width: 10%;
+      background-repeat: no-repeat;
+      background-position: right;
+      &:hover {
+        /*fill: %23d3c1ad*/
+        background-image: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" width="40" height="73" viewBox="0 0 40 73"><g><g><path d="M1.974 72.98l38.021-36.482L1.974.018.004 2.022l35.93 34.476L.004 70.977z"/><path fill="%23d3c1ad" d="M1.974 72.98l38.021-36.482L1.974.018.004 2.022l35.93 34.476L.004 70.977z"/></g></g></svg>');
+        cursor: pointer;
+      }
+      &:active {
+        /*fill: %23fff*/
+        background-image: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" width="40" height="73" viewBox="0 0 40 73"><g><g><path d="M1.974 72.98l38.021-36.482L1.974.018.004 2.022l35.93 34.476L.004 70.977z"/><path fill="%23fff" d="M1.974 72.98l38.021-36.482L1.974.018.004 2.022l35.93 34.476L.004 70.977z"/></g></g></svg>');
       }
     }
     &-pagination {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-self: flex-end;
+      margin: 30px 0 0 0;
       &-link {
-
+        width: 10px;
+        height: 10px;
+        background-color: @color-light;
+        opacity: 0.5;
+        border-radius: 50%;
+        margin: 0 6px;
+        box-sizing: border-box;
+        &:hover {
+          transform: scale(1.5);
+          border: 2px solid @color-ginger;
+          background-color: transparent;
+          opacity: 1;
+        }
+        &:active {
+          transform: none;
+          border: none;
+          background-color: @color-light;
+          opacity: 0.5;
+        }
       }
     }
   }
