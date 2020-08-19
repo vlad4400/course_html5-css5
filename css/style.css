@@ -404,6 +404,12 @@ body {
   height: 24px;
   margin: 15px 0 0 35px;
 }
+.header-content-cart:hover {
+  cursor: pointer;
+}
+.header-content-cart:active {
+  cursor: progress;
+}
 .header-content-form {
   width: 10%;
 }
@@ -412,6 +418,12 @@ body {
   width: 24px;
   height: 24px;
   margin: 15px 0 0 28px;
+}
+.header-content-form-search:hover {
+  cursor: pointer;
+}
+.header-content-form-search:active {
+  cursor: progress;
 }
 .header-content-btn-left {
   /*fill: %23fff*/
