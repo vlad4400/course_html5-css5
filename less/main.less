@@ -1,5 +1,8 @@
 .main {
   &-services {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     /*style*/
     &-design,
     &-development,
@@ -52,6 +55,32 @@
       }
     }
     /*position*/
+    &-design,
+    &-development,
+    &-customization,
+    &-marketing {
+      width: 270px;
+      margin: 80px 15px;
+      &-icon {
+        display: block;
+        margin: 0 auto 28px;
+      }
+      &-title,
+      &-txt {
+        text-align: center;
+      }
+      &-title {
+        letter-spacing: -1px;
+        margin: 0 0 14px;
+      }
+      &-txt {
+        letter-spacing: 0;
+        margin: 0 0 25px;
+      }
+      &:after {
+        margin: 0 auto;
+      }
+    }
   }
   &-screenshots {
 

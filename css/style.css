@@ -565,6 +565,16 @@ body {
   opacity: 0.5;
 }
 .main-services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   /*style*/
   /*position*/
 }
@@ -696,4 +706,48 @@ body {
 .main-services-customization:active,
 .main-services-marketing:active {
   cursor: wait;
+}
+.main-services-design,
+.main-services-development,
+.main-services-customization,
+.main-services-marketing {
+  width: 270px;
+  margin: 80px 15px;
+}
+.main-services-design-icon,
+.main-services-development-icon,
+.main-services-customization-icon,
+.main-services-marketing-icon {
+  display: block;
+  margin: 0 auto 28px;
+}
+.main-services-design-title,
+.main-services-development-title,
+.main-services-customization-title,
+.main-services-marketing-title,
+.main-services-design-txt,
+.main-services-development-txt,
+.main-services-customization-txt,
+.main-services-marketing-txt {
+  text-align: center;
+}
+.main-services-design-title,
+.main-services-development-title,
+.main-services-customization-title,
+.main-services-marketing-title {
+  letter-spacing: -1px;
+  margin: 0 0 14px;
+}
+.main-services-design-txt,
+.main-services-development-txt,
+.main-services-customization-txt,
+.main-services-marketing-txt {
+  letter-spacing: 0;
+  margin: 0 0 25px;
+}
+.main-services-design:after,
+.main-services-development:after,
+.main-services-customization:after,
+.main-services-marketing:after {
+  margin: 0 auto;
 }
