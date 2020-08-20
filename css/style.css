@@ -1,3 +1,5 @@
+/* header */
+/* main -> services */
 @font-face {
   font-family: montserrat;
   src: local("montserrat"), url(../fonts/montserrat/montserrat-thin.woff2), url(../fonts/montserrat/montserrat-thin.woff), url(../fonts/montserrat/montserrat-thin.ttf), url(../fonts/montserrat/montserrat-thin.eot);
@@ -508,7 +510,7 @@ body {
 }
 .header-content-btn-right {
   /*fill: %23fff*/
-  background-image: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" width="40" height="73" viewBox="0 0 40 73"><g><g><path d="M1.974 72.98l38.021-36.482L1.974.018.004 2.022l35.93 34.476L.004 70.977z"/><path fill="%23fff" d="M1.974 72.98l38.021-36.482L1.974.018.004 2.022l35.93 34.476L.004 70.977z"/></g></g></svg>');
+  background-image: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" width="40" height="73" viewBox="0 0 40 73"><g><g opacity=".5"><path d="M1.974 72.98l38.021-36.482L1.974.018.004 2.022l35.93 34.476L.004 70.977z"/><path fill="%23FFF" d="M1.974 72.98l38.021-36.482L1.974.018.004 2.022l35.93 34.476L.004 70.977z"/></g></g></svg>');
   width: 10%;
   background-repeat: no-repeat;
   background-position: right;
@@ -561,4 +563,137 @@ body {
   border: none;
   background-color: #ffffff;
   opacity: 0.5;
+}
+.main-services {
+  /*style*/
+  /*position*/
+}
+.main-services-design-icon,
+.main-services-development-icon,
+.main-services-customization-icon,
+.main-services-marketing-icon {
+  fill: #555555;
+}
+.main-services-design:hover .main-services-design-icon,
+.main-services-design:hover .main-services-development-icon,
+.main-services-design:hover .main-services-customization-icon,
+.main-services-design:hover .main-services-marketing-icon,
+.main-services-development:hover .main-services-design-icon,
+.main-services-development:hover .main-services-development-icon,
+.main-services-development:hover .main-services-customization-icon,
+.main-services-development:hover .main-services-marketing-icon,
+.main-services-customization:hover .main-services-design-icon,
+.main-services-customization:hover .main-services-development-icon,
+.main-services-customization:hover .main-services-customization-icon,
+.main-services-customization:hover .main-services-marketing-icon,
+.main-services-marketing:hover .main-services-design-icon,
+.main-services-marketing:hover .main-services-development-icon,
+.main-services-marketing:hover .main-services-customization-icon,
+.main-services-marketing:hover .main-services-marketing-icon {
+  fill: #c7b299;
+}
+.main-services-design:active .main-services-design-icon,
+.main-services-design:active .main-services-development-icon,
+.main-services-design:active .main-services-customization-icon,
+.main-services-design:active .main-services-marketing-icon,
+.main-services-development:active .main-services-design-icon,
+.main-services-development:active .main-services-development-icon,
+.main-services-development:active .main-services-customization-icon,
+.main-services-development:active .main-services-marketing-icon,
+.main-services-customization:active .main-services-design-icon,
+.main-services-customization:active .main-services-development-icon,
+.main-services-customization:active .main-services-customization-icon,
+.main-services-customization:active .main-services-marketing-icon,
+.main-services-marketing:active .main-services-design-icon,
+.main-services-marketing:active .main-services-development-icon,
+.main-services-marketing:active .main-services-customization-icon,
+.main-services-marketing:active .main-services-marketing-icon {
+  fill: #555555;
+}
+.main-services-design-title,
+.main-services-development-title,
+.main-services-customization-title,
+.main-services-marketing-title {
+  color: #555555;
+  font-size: 22px;
+  font-weight: 600;
+}
+.main-services-design:hover .main-services-design-title,
+.main-services-design:hover .main-services-development-title,
+.main-services-design:hover .main-services-customization-title,
+.main-services-design:hover .main-services-marketing-title,
+.main-services-development:hover .main-services-design-title,
+.main-services-development:hover .main-services-development-title,
+.main-services-development:hover .main-services-customization-title,
+.main-services-development:hover .main-services-marketing-title,
+.main-services-customization:hover .main-services-design-title,
+.main-services-customization:hover .main-services-development-title,
+.main-services-customization:hover .main-services-customization-title,
+.main-services-customization:hover .main-services-marketing-title,
+.main-services-marketing:hover .main-services-design-title,
+.main-services-marketing:hover .main-services-development-title,
+.main-services-marketing:hover .main-services-customization-title,
+.main-services-marketing:hover .main-services-marketing-title {
+  color: #c7b299;
+}
+.main-services-design:active .main-services-design-title,
+.main-services-design:active .main-services-development-title,
+.main-services-design:active .main-services-customization-title,
+.main-services-design:active .main-services-marketing-title,
+.main-services-development:active .main-services-design-title,
+.main-services-development:active .main-services-development-title,
+.main-services-development:active .main-services-customization-title,
+.main-services-development:active .main-services-marketing-title,
+.main-services-customization:active .main-services-design-title,
+.main-services-customization:active .main-services-development-title,
+.main-services-customization:active .main-services-customization-title,
+.main-services-customization:active .main-services-marketing-title,
+.main-services-marketing:active .main-services-design-title,
+.main-services-marketing:active .main-services-development-title,
+.main-services-marketing:active .main-services-customization-title,
+.main-services-marketing:active .main-services-marketing-title {
+  color: #555555;
+}
+.main-services-design-txt,
+.main-services-development-txt,
+.main-services-customization-txt,
+.main-services-marketing-txt {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #8c8c8c;
+}
+.main-services-design:after,
+.main-services-development:after,
+.main-services-customization:after,
+.main-services-marketing:after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #f1eee9;
+}
+.main-services-design:hover:after,
+.main-services-development:hover:after,
+.main-services-customization:hover:after,
+.main-services-marketing:hover:after {
+  background-color: #c7b299;
+}
+.main-services-design:active:after,
+.main-services-development:active:after,
+.main-services-customization:active:after,
+.main-services-marketing:active:after {
+  background-color: #f1eee9;
+}
+.main-services-design:hover,
+.main-services-development:hover,
+.main-services-customization:hover,
+.main-services-marketing:hover {
+  cursor: pointer;
+}
+.main-services-design:active,
+.main-services-development:active,
+.main-services-customization:active,
+.main-services-marketing:active {
+  cursor: wait;
 }

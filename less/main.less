@@ -1,1 +1,77 @@
+.main {
+  &-services {
+    /*style*/
+    &-design,
+    &-development,
+    &-customization,
+    &-marketing {
+      &-icon {
+        fill: @color-gray;
+      }
+      &:hover &-icon {
+        fill: @color-ginger;
+      }
+      &:active &-icon {
+        fill: @color-gray;
+      }
+      &-title {
+        color: @color-gray;
+        font-size: 22px;
+        font-weight: 600;
+      }
+      &:hover &-title {
+        color: @color-ginger;
+      }
+      &:active &-title {
+        color: @color-gray;
+      }
+      &-txt {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        color: @color-gray-light;
+      }
+      &:after {
+        content: "";
+        display: block;
+        width: 70px;
+        height: 3px;
+        background-color: #f1eee9;
+      }
+      &:hover:after {
+        background-color: @color-ginger;
+      }
+      &:active:after {
+        background-color: #f1eee9;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+      &:active {
+        cursor: wait;
+      }
+    }
+    /*position*/
+  }
+  &-screenshots {
 
+  }
+  &-textbox {
+
+  }
+  &-presentation {
+
+  }
+  &-mobiledevices {
+
+  }
+  &-counters {
+
+  }
+  &-posts {
+
+  }
+  &-partners {
+
+  }
+}
