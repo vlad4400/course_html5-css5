@@ -1,5 +1,6 @@
 /* header */
 /* main -> services */
+/* main -> services */
 @font-face {
   font-family: montserrat;
   src: local("montserrat"), url(../fonts/montserrat/montserrat-thin.woff2), url(../fonts/montserrat/montserrat-thin.woff), url(../fonts/montserrat/montserrat-thin.ttf), url(../fonts/montserrat/montserrat-thin.eot);
@@ -750,4 +751,52 @@ body {
 .main-services-customization:after,
 .main-services-marketing:after {
   margin: 0 auto;
+}
+.main-screenshots {
+  /*style*/
+  background-color: #fbfaf8;
+  /*position*/
+  text-align: center;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.main-screenshots-title {
+  font-family: Raleway;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #555555;
+}
+.main-screenshots-text {
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #8c8c8c;
+}
+.main-screenshots-backimg {
+  background-image: url(../img/browser-center.jpg), url(../img/browser-left.jpg), url(../img/browser-right.jpg);
+}
+.main-screenshots-title {
+  margin: 0 0 16px;
+}
+.main-screenshots-text {
+  max-width: 800px;
+  margin: 0 auto 25px;
+}
+.main-screenshots-backimg {
+  height: 70%;
+  background-repeat: no-repeat;
+  background-size: 62%, 62%, 62%;
+  background-position: bottom center, bottom left, bottom right;
+  margin: 0 18%;
 }
