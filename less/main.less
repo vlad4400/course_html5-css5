@@ -127,7 +127,51 @@
     }
   }
   &-textbox {
-
+    /*style*/
+    background-color: @color-textbox-back;
+    background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
+    &-leftcontainer {
+      &-title {
+        font-family: Raleway;
+        font-size: 28px;
+        line-height: 1.2;
+        font-weight: 400;
+        &-firstword {
+          color: @color-ginger;
+        }
+        color: @color-light;
+      }
+      &-text {
+        font-family: Montserrat;
+        font-size: 18px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: @color-ginder-dark;
+      }
+    }
+    &-rightcontainer {
+      &-btn {
+        .mixin-btn-style();
+      }
+    }
+    /*position*/
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 375px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    &-leftcontainer {
+      max-width: 80%;
+      &-title {
+        margin: 0px 0px 7px 2px;
+        letter-spacing: 0.01em;
+      }
+    }
+    &-rightcontainer {
+      margin: 15px 0 0 0;
+    }
   }
   &-presentation {
 
