@@ -5,6 +5,7 @@
 /* main -> projects */
 /* main -> presentation */
 /* main -> mobiledevices */
+/* main -> counters */
 .mixin-padding-default {
   padding: 80px 375px;
   -webkit-box-sizing: border-box;
@@ -1339,4 +1340,98 @@ body {
 }
 .main-mobiledevices-features-item:before {
   margin: 0px 0px -26px -50px;
+}
+.main-counters {
+  /*style*/
+  min-height: 300px;
+  background-color: #f4f5f8;
+  background-image: -webkit-gradient(linear, left top, right top, from(#211b19), to(#4e3427));
+  background-image: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+  /*position*/
+  padding: 69px 0 60px  0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.main-counters-clients-count,
+.main-counters-coffee-count,
+.main-counters-posts-count,
+.main-counters-likes-count,
+.main-counters-launched-count {
+  font-family: Montserrat, sans-serif;
+  font-size: 48px;
+  line-height: 36px;
+  font-weight: 200;
+  color: #ffffff;
+}
+.main-counters-clients-caption,
+.main-counters-coffee-caption,
+.main-counters-posts-caption,
+.main-counters-likes-caption,
+.main-counters-launched-caption {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #c7b299;
+}
+.main-counters-clients:after,
+.main-counters-coffee:after,
+.main-counters-posts:after,
+.main-counters-likes:after,
+.main-counters-launched:after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #ffffff;
+}
+.main-counters-clients,
+.main-counters-coffee,
+.main-counters-posts,
+.main-counters-likes,
+.main-counters-launched {
+  margin: 0 25px;
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main-counters-clients-img,
+.main-counters-coffee-img,
+.main-counters-posts-img,
+.main-counters-likes-img,
+.main-counters-launched-img {
+  margin: 0 0 28px 0;
+}
+.main-counters-clients-count,
+.main-counters-coffee-count,
+.main-counters-posts-count,
+.main-counters-likes-count,
+.main-counters-launched-count {
+  margin: 0 0 13px 0;
+}
+.main-counters-clients-caption,
+.main-counters-coffee-caption,
+.main-counters-posts-caption,
+.main-counters-likes-caption,
+.main-counters-launched-caption {
+  margin: 0 0 24px 0;
 }
