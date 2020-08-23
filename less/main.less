@@ -229,9 +229,8 @@
           &:before {
             content: "";
             display: block;
-            width: 30px;
-            height: 10px;
-            background-color: @color-back;
+            border: 15px solid transparent;
+            border-bottom: 10px solid @color-back;
           }
           &-title {
             font-family: Raleway, sans-serif;
@@ -250,6 +249,7 @@
         }
         &-link,
         &-search {
+          visibility: hidden;
           fill: @color-light;
           &:hover {
             fill: @color-ginger;
@@ -267,7 +267,7 @@
           &-wrapper {
             background-color: @color-ginger-project;
             &:before {
-              background-color: @color-ginger-project;
+              border-bottom: 10px solid @color-ginger-project;
             }
             &-title {
               color: @color-light;
@@ -276,11 +276,87 @@
               color: @color-ginger;
             }
           }
+          &-link,
+          &-search {
+            visibility: visible;
+          }
         }
       }
     }
     &-btn {
       .mixin-btn-style();
+    }
+    /*position*/
+    & {
+      .mixin-padding-default();
+    }
+    &-title {
+      text-align: center;
+      margin: -4px 0 16px 0;
+    }
+    &-text {
+      text-align: center;
+      margin: 0 auto 32px;
+      width: 800px;
+    }
+    &-menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-end;
+      &-btn {
+        margin: 0 5px;
+        padding: 5px 20px;
+        box-sizing: border-box;
+        &.checked {
+          height: 34px;
+          padding: 6px 26px;
+        }
+      }
+    }
+    &-container {
+      & {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 38px 0 0 0;
+        justify-content: space-between;
+      }
+      &-item {
+        & {
+          margin: 0 0 30px 0;
+          position: relative;
+        }
+        &-img {
+          display: block;
+        }
+        &-wrapper {
+          position: relative;
+          padding: 29px 30px;
+          box-sizing: border-box;
+          &:before {
+            position: absolute;
+            left: 19px;
+            top: -25px;
+          }
+          &-title {
+            margin: 0 0 3px 0;
+          }
+        }
+        &-link {
+          position: absolute;
+          left: 145px;
+          top: 107px;
+        }
+        &-search {
+          position: absolute;
+          left: 199px;
+          top: 107px;
+        }
+      }
+    }
+    &-btn {
+      margin: 8px auto;
     }
   }
   &-presentation {
