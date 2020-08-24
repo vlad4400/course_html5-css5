@@ -1,5 +1,5 @@
-.mixin-padding-default {
-  padding: 80px 375px;
+.mixin-padding-default(@delta-top: 0, @delta-right: 0, @delta-bottom: 0, @delta-left: 0) {
+  padding: 80px + @delta-top 375px + @delta-right 80px + @delta-bottom 375px + @delta-left;
   box-sizing: border-box;
 }
 .mixin-btn-style {
@@ -35,5 +35,34 @@
     color: @color-btn-color;
     cursor: wait;
     filter: none;
+  }
+}
+.mixin-pagination-link-style {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: flex-end;
+  margin: 30px 0 0 0;
+  &-link {
+    width: 10px;
+    height: 10px;
+    background-color: @color-light;
+    opacity: 0.5;
+    border-radius: 50%;
+    margin: 0 6px;
+    box-sizing: border-box;
+    &:hover {
+      transform: scale(1.5);
+      border: 2px solid @color-ginger;
+      background-color: transparent;
+      opacity: 1;
+    }
+    &:active {
+      transform: none;
+      border: none;
+      background-color: @color-light;
+      opacity: 0.5;
+    }
   }
 }

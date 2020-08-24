@@ -147,33 +147,7 @@
       }
     }
     &-pagination {
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-self: flex-end;
-      margin: 30px 0 0 0;
-      &-link {
-        width: 10px;
-        height: 10px;
-        background-color: @color-light;
-        opacity: 0.5;
-        border-radius: 50%;
-        margin: 0 6px;
-        box-sizing: border-box;
-        &:hover {
-          transform: scale(1.5);
-          border: 2px solid @color-ginger;
-          background-color: transparent;
-          opacity: 1;
-        }
-        &:active {
-          transform: none;
-          border: none;
-          background-color: @color-light;
-          opacity: 0.5;
-        }
-      }
+        .mixin-pagination-link-style();
     }
   }
 }
