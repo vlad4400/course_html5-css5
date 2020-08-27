@@ -66,3 +66,16 @@
     }
   }
 }
+
+.mixin-footer-color-hover-active {
+  & {
+    cursor: pointer;
+  }
+  &:hover {
+    color: @color-ginger;
+  }
+  &:active {
+    cursor: wait;
+    color: @color-gray;
+  }
+}

@@ -7,6 +7,7 @@
 /* main -> mobiledevices */
 /* main -> counters */
 /* main -> posts */
+/* footer */
 .mixin-btn-style {
   font-size: 14px;
   font-weight: 700;
@@ -93,6 +94,16 @@
   border: none;
   background-color: #ffffff;
   opacity: 0.5;
+}
+.mixin-footer-color-hover-active {
+  cursor: pointer;
+}
+.mixin-footer-color-hover-active:hover {
+  color: #c7b299;
+}
+.mixin-footer-color-hover-active:active {
+  cursor: wait;
+  color: #555555;
 }
 @font-face {
   font-family: montserrat;
@@ -1790,4 +1801,413 @@ body {
 .main-partners-darkeninglayer-logo {
   margin: 0 45px;
   background-position: center;
+}
+.footer {
+  /*style*/
+  /*position*/
+}
+.footer-info {
+  min-height: 508px;
+  background-color: #191919;
+}
+.footer-info-company-logo {
+  font-family: Raleway, sans-serif;
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  position: relative;
+  padding: 8px 0 0 67px;
+}
+.footer-info-company-logo:before {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 56px;
+  background-image: url(../img/logos.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.footer-info-company-text {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #555555;
+}
+.footer-info-company-btn {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #555555;
+}
+.footer-info-company-btn:hover {
+  cursor: pointer;
+  color: #c7b299;
+}
+.footer-info-company-btn:active {
+  cursor: wait;
+  color: #555555;
+}
+.footer-info-company-btn-svg {
+  fill: #555555;
+}
+.footer-info-company-btn:hover .footer-info-company-btn-svg {
+  fill: #c7b299;
+}
+.footer-info-company-btn:active .footer-info-company-btn-svg {
+  fill: #555555;
+}
+.footer-info-posts-title {
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #ffffff;
+}
+.footer-info-posts-item-date {
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #363636;
+}
+.footer-info-posts-item-text {
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #555555;
+}
+.footer-info-posts-item:after {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 1px;
+  background-color: #252525;
+}
+.footer-info-posts-item:nth-last-child(1):after {
+  content: none;
+}
+.footer-info-posts-item:hover {
+  cursor: pointer;
+}
+.footer-info-posts-item:active {
+  cursor: wait;
+}
+.footer-info-posts-item:hover .footer-info-posts-item-date {
+  color: #ffffff;
+}
+.footer-info-posts-item:hover .footer-info-posts-item-text {
+  color: #c7b299;
+}
+.footer-info-posts-item:active .footer-info-posts-item-date {
+  color: #363636;
+}
+.footer-info-posts-item:active .footer-info-posts-item-text {
+  color: #555555;
+}
+.footer-info-twitter-title {
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #ffffff;
+}
+.footer-info-twitter-item-text {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #555555;
+}
+.footer-info-twitter-item-text-blue {
+  color: #00bff3;
+}
+.footer-info-twitter-item-text-white {
+  color: #959595;
+}
+.footer-info-twitter-item-time {
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #363636;
+}
+.footer-info-twitter-item:after {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 1px;
+  background-color: #252525;
+}
+.footer-info-twitter-item:nth-last-child(1):after {
+  content: none;
+}
+.footer-info-twitter-item:hover {
+  cursor: pointer;
+}
+.footer-info-twitter-item:active {
+  cursor: wait;
+}
+.footer-info-twitter-item:hover .footer-info-twitter-item-text {
+  color: #c7b299;
+}
+.footer-info-twitter-item:hover .footer-info-twitter-item-time {
+  color: #ffffff;
+}
+.footer-info-twitter-item:active .footer-info-twitter-item-text {
+  color: #555555;
+}
+.footer-info-twitter-item:active .footer-info-twitter-item-time {
+  color: #363636;
+}
+.footer-info-widget-title {
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #ffffff;
+}
+.footer-info-widget-container {
+  display: block;
+  width: 270px;
+}
+.footer-info-widget-container :nth-child(1) {
+  background-image: url(../img/widget-1.jpg);
+}
+.footer-info-widget-container :nth-child(2) {
+  background-image: url(../img/widget-2.jpg);
+}
+.footer-info-widget-container :nth-child(3) {
+  background-image: url(../img/widget-3.jpg);
+}
+.footer-info-widget-container :nth-child(4) {
+  background-image: url(../img/widget-4.jpg);
+}
+.footer-info-widget-container-item {
+  display: block;
+  width: 130px;
+  height: 98px;
+}
+.footer-info-widget-container-item:hover {
+  cursor: pointer;
+}
+.footer-info-widget-container-item:active {
+  cursor: wait;
+}
+.footer-copyright {
+  min-height: 111px;
+  background-color: #111111;
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #555555;
+}
+.footer-copyright-left-name {
+  cursor: pointer;
+}
+.footer-copyright-left-name:hover {
+  color: #c7b299;
+}
+.footer-copyright-left-name:active {
+  cursor: wait;
+  color: #555555;
+}
+.footer-copyright-left-name-white {
+  color: #959595;
+}
+.footer-copyright-left-privacypolicy {
+  cursor: pointer;
+}
+.footer-copyright-left-privacypolicy:hover {
+  color: #c7b299;
+}
+.footer-copyright-left-privacypolicy:active {
+  cursor: wait;
+  color: #555555;
+}
+.footer-copyright-left-fag {
+  cursor: pointer;
+}
+.footer-copyright-left-fag:hover {
+  color: #c7b299;
+}
+.footer-copyright-left-fag:active {
+  cursor: wait;
+  color: #555555;
+}
+.footer-copyright-left-support {
+  cursor: pointer;
+}
+.footer-copyright-left-support:hover {
+  color: #c7b299;
+}
+.footer-copyright-left-support:active {
+  cursor: wait;
+  color: #555555;
+}
+.footer-copyright-right-designed {
+  cursor: pointer;
+}
+.footer-copyright-right-designed:hover {
+  color: #c7b299;
+}
+.footer-copyright-right-designed:active {
+  cursor: wait;
+  color: #555555;
+}
+.footer-copyright-right-designed-white {
+  color: #959595;
+}
+.footer-copyright-right-platform {
+  cursor: pointer;
+}
+.footer-copyright-right-platform:hover {
+  color: #c7b299;
+}
+.footer-copyright-right-platform:active {
+  cursor: wait;
+  color: #555555;
+}
+.footer-copyright-right-platform-white {
+  color: #959595;
+}
+.footer-info {
+  padding: 80px 375px 50px 375px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.footer-info > * {
+  width: 270px;
+}
+.footer-info-company-logo {
+  margin: 0 0 33px 2px;
+}
+.footer-info-company-text {
+  margin: 0 0 23px 0;
+}
+.footer-info-company-btn-svg {
+  margin: 0px 0 0 4px;
+}
+.footer-info-posts-title {
+  margin: 23px 0px 22px 0;
+}
+.footer-info-posts-item-date {
+  margin: 0 0 3px 0;
+}
+.footer-info-posts-item-text {
+  margin: 0 0 18px;
+}
+.footer-info-posts-item:after {
+  margin: 0 0 15px 0;
+}
+.footer-info-twitter-title {
+  margin: 23px 0 21px 0;
+}
+.footer-info-twitter-item-text {
+  margin: 0 0 3px 0;
+}
+.footer-info-twitter-item-time {
+  margin: 0 0 19px 0;
+}
+.footer-info-twitter-item:after {
+  margin: 0 0 15px 0;
+}
+.footer-info-widget {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.footer-info-widget-title {
+  margin: 23px 0 20px 0;
+}
+.footer-info-widget-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer-info-widget-container-item {
+  margin: 5px 0;
+}
+.footer-copyright {
+  padding: 0px 375px 5px 375px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer-copyright-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.footer-copyright-left-name {
+  margin: 0 25px 0 0;
+}
+.footer-copyright-left-privacypolicy {
+  margin: 0 23px 0 0;
+}
+.footer-copyright-left-fag {
+  margin: 0 26px 0 0;
+}
+.footer-copyright-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.footer-copyright-right-platform {
+  margin: 0 0 0 20px;
 }

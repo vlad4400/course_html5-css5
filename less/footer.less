@@ -1,0 +1,359 @@
+.footer {
+  /*style*/
+  &-info {
+    min-height: 508px;
+    background-color: @color-copyright-info-back;
+    &-company {
+      &-logo {
+        font-family: Raleway, sans-serif;
+        font-size: 34px;
+        line-height: 1.2;
+        font-weight: 400;
+        letter-spacing: -0.04em;
+        color: @color-light;
+        position: relative;
+        padding: 8px 0 0 67px;
+        &:before {
+          content: "";
+          display: block;
+          width: 64px;
+          height: 56px;
+          background-image: url(../img/logos.png);
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+      }
+      &-text {
+        font-family: Montserrat, sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        color: @color-gray;
+      }
+      &-btn {
+        font-family: Montserrat, sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        color: @color-gray;
+        &:hover {
+          cursor: pointer;
+          color: @color-ginger;
+        }
+        &:active {
+          cursor: wait;
+          color: @color-gray;
+        }
+        &-svg {
+          fill: @color-gray;
+        }
+        &:hover &-svg{
+          fill: @color-ginger;
+        }
+        &:active &-svg{
+          fill: @color-gray;
+        }
+      }
+    }
+    &-posts {
+      &-title {
+        font-family: Raleway, sans-serif;
+        font-size: 24px;
+        line-height: 1.2;
+        font-weight: 700;
+        color: @color-light;
+      }
+      &-item {
+        &-date {
+          font-family: Montserrat, sans-serif;
+          font-size: 12px;
+          line-height: 20px;
+          font-weight: 300;
+          color: @color-copyright-dark;
+        }
+        &-text {
+          font-family: Montserrat;
+          font-size: 14px;
+          line-height: 20px;
+          font-weight: 300;
+          color: @color-gray;
+        }
+        &:after {
+          content: "";
+          display: block;
+          width: 270px;
+          height: 1px;
+          background-color: @color-copyright-underline;
+        }
+        &:nth-last-child(1):after {
+          content: none;
+        }
+        &:hover {
+          cursor: pointer;
+        }
+        &:active {
+          cursor: wait;
+        }
+        &:hover & {
+          &-date {
+            color: @color-light;
+          }
+          &-text {
+            color: @color-ginger;
+          }
+        }
+        &:active & {
+          &-date {
+            color: @color-copyright-dark;
+          }
+          &-text {
+            color: @color-gray;
+          }
+        }
+      }
+    }
+    &-twitter {
+      &-title {
+        font-family: Raleway, sans-serif;
+        font-size: 24px;
+        line-height: 1.2;
+        font-weight: 700;
+        color: @color-light;
+      }
+      &-item {
+        &-text {
+          font-family: Montserrat, sans-serif;
+          font-size: 14px;
+          line-height: 20px;
+          font-weight: 300;
+          color: @color-gray;
+          &-blue {
+            color: @color-copyright-blue;
+          }
+          &-white {
+            color: @color-copyright-white;
+          }
+        }
+        &-time {
+          font-family: Montserrat, sans-serif;
+          font-size: 12px;
+          line-height: 20px;
+          font-weight: 300;
+          color: @color-copyright-dark;
+        }
+        &:after {
+          content: "";
+          display: block;
+          width: 270px;
+          height: 1px;
+          background-color: @color-copyright-underline;
+        }
+        &:nth-last-child(1):after {
+          content: none;
+        }
+        &:hover {
+          cursor: pointer;
+        }
+        &:active {
+          cursor: wait;
+        }
+        &:hover & {
+          &-text {
+            color: @color-ginger;
+          }
+          &-time {
+            color: @color-light;
+          }
+        }
+        &:active & {
+          &-text {
+            color: @color-gray;
+          }
+          &-time {
+            color: @color-copyright-dark;
+          }
+        }
+      }
+    }
+    &-widget {
+      &-title {
+        font-family: Raleway, sans-serif;
+        font-size: 24px;
+        line-height: 1.2;
+        font-weight: 700;
+        color: @color-light;
+      }
+      &-container {
+        display: block;
+        width: 270px;
+        & :nth-child(1) {
+          background-image: url(../img/widget-1.jpg);
+        }
+        & :nth-child(2) {
+          background-image: url(../img/widget-2.jpg);
+        }
+        & :nth-child(3) {
+          background-image: url(../img/widget-3.jpg);
+        }
+        & :nth-child(4) {
+          background-image: url(../img/widget-4.jpg);
+        }
+        &-item {
+          display: block;
+          width: 130px;
+          height: 98px;
+          &:hover {
+            cursor: pointer;
+          }
+          &:active {
+            cursor: wait;
+          }
+        }
+      }
+    }
+  }
+  &-copyright {
+    min-height: 111px;
+    background-color: @color-copyright-right-back;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+    color: @color-gray;
+    &-left {
+      &-name {
+        .mixin-footer-color-hover-active();
+        &-white {
+          color: @color-copyright-white;
+        }
+      }
+      &-privacypolicy {
+        .mixin-footer-color-hover-active();
+      }
+      &-fag {
+        .mixin-footer-color-hover-active();
+      }
+      &-support {
+        .mixin-footer-color-hover-active();
+      }
+    }
+    &-right {
+      &-designed {
+        .mixin-footer-color-hover-active();
+        &-white {
+          color: @color-copyright-white;
+        }
+      }
+      &-platform {
+        .mixin-footer-color-hover-active();
+        &-white {
+          color: @color-copyright-white;
+        }
+      }
+    }
+  }
+  /*position*/
+  &-info {
+    .mixin-padding-default(0; 0; -30; 0);
+    display: flex;
+    flex-direction: row;
+    display-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    & > * {
+      width: 270px;
+    }
+    &-company {
+      &-logo {
+        margin: 0 0 33px 2px;
+      }
+      &-text {
+        margin: 0 0 23px 0;
+      }
+      &-btn {
+        &-svg {
+          margin: 0px 0 0 4px;
+        }
+      }
+    }
+    &-posts {
+      &-title {
+        margin: 23px 0px 22px 0;
+      }
+      &-item {
+        &-date {
+          margin: 0 0 3px 0;
+        }
+        &-text {
+          margin: 0 0 18px;
+        }
+        &:after {
+          margin: 0 0 15px 0;
+        }
+      }
+    }
+    &-twitter {
+      &-title {
+        margin: 23px 0 21px 0;
+      }
+      &-item {
+        &-text {
+          margin: 0 0 3px 0;
+        }
+        &-time {
+          margin: 0 0 19px 0;
+        }
+        &:after {
+          margin: 0 0 15px 0;
+        }
+      }
+    }
+    &-widget {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      &-title {
+        margin: 23px 0 20px 0;
+      }
+      &-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        &-item {
+          margin: 5px 0;
+        }
+      }
+    }
+  }
+  &-copyright {
+    display: flex;
+    flex-direction: row;
+    .mixin-padding-default(-80; 0; -75; 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    &-left {
+      display: flex;
+      flex-direction: row;
+      &-name {
+        margin: 0 25px 0 0;
+      }
+      &-privacypolicy {
+        margin: 0 23px 0 0;
+      }
+      &-fag {
+        margin: 0 26px 0 0;
+      }
+    }
+    &-right {
+      display: flex;
+      flex-direction: row;
+      &-platform {
+        margin: 0 0 0 20px;
+      }
+    }
+  }
+}
