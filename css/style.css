@@ -506,31 +506,31 @@ body {
   cursor: wait;
 }
 .header-content-cart {
-  background-image: url(../img/icon-cart.png);
-  width: 18px;
-  height: 24px;
   margin: 15px 0 0 35px;
+  fill: #ffffff;
 }
 .header-content-cart:hover {
   cursor: pointer;
+  fill: #c7b299;
 }
 .header-content-cart:active {
   cursor: progress;
+  fill: #c7b299;
 }
 .header-content-form {
   width: 10%;
 }
 .header-content-form-search {
-  background-image: url(../img/icon-search.png);
-  width: 24px;
-  height: 24px;
   margin: 15px 0 0 28px;
+  fill: #ffffff;
 }
 .header-content-form-search:hover {
   cursor: pointer;
+  fill: #c7b299;
 }
 .header-content-form-search:active {
   cursor: progress;
+  fill: #c7b299;
 }
 .header-content-btn-left {
   /*fill: %23fff*/
