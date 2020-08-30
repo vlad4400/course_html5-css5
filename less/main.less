@@ -816,3 +816,42 @@
     }
   }
 }
+
+@media only screen and (max-width: 992px) {
+  .main {
+    &-services {
+      & {
+        padding: 0 50px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      & > :nth-child(n) {
+        margin: 40px 15px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    &-services {
+      padding: 5%;
+      & > :nth-child(n) {
+        margin: 40px auto;
+        width: 235px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .main {
+    &-services {
+      padding: 0;
+      & > :nth-child(n) {
+        margin: 40px auto;
+        width: 235px;
+      }
+    }
+  }
+}
