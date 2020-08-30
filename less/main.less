@@ -847,7 +847,7 @@
     }
     &-screenshots {
       height: 490px;
-      padding: 5px 50px;
+      padding: 10px 50px 0 10px;
       &-backimg {
         margin: 0;
       }
@@ -866,7 +866,7 @@
     }
     &-screenshots {
       height: 410px;
-      padding: 10px;
+      padding: 10px 10px 0 10px;
       &-backimg {
         margin: 0;
       }
@@ -884,10 +884,38 @@
       }
     }
     &-screenshots {
-      padding: 5px;
+      padding: 5px 5px 0 5px;
       height: 400px;
       &-backimg {
         margin: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .main {
+    &-services {
+      & > :nth-child(n) {
+        margin: 10px auto;
+        width: 170px;
+      }
+      &-design,
+      &-development,
+      &-customization,
+      &-marketing {
+        &-icon {
+          margin: 0px auto 14px;
+        }
+        &-title {
+          font-size: 14px;
+          margin: 0 0 8px;
+        }
+        &-txt {
+          font-size: 10px;
+          line-height: 18px;
+          margin: 0 0 10px;
+        }
       }
     }
   }

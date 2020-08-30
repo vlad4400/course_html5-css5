@@ -1904,7 +1904,7 @@ body {
   }
   .main-screenshots {
     height: 490px;
-    padding: 5px 50px;
+    padding: 10px 50px 0 10px;
   }
   .main-screenshots-backimg {
     margin: 0;
@@ -1920,7 +1920,7 @@ body {
   }
   .main-screenshots {
     height: 410px;
-    padding: 10px;
+    padding: 10px 10px 0 10px;
   }
   .main-screenshots-backimg {
     margin: 0;
@@ -1935,11 +1935,38 @@ body {
     width: 235px;
   }
   .main-screenshots {
-    padding: 5px;
+    padding: 5px 5px 0 5px;
     height: 400px;
   }
   .main-screenshots-backimg {
     margin: 0;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .main-services > :nth-child(n) {
+    margin: 10px auto;
+    width: 170px;
+  }
+  .main-services-design-icon,
+  .main-services-development-icon,
+  .main-services-customization-icon,
+  .main-services-marketing-icon {
+    margin: 0px auto 14px;
+  }
+  .main-services-design-title,
+  .main-services-development-title,
+  .main-services-customization-title,
+  .main-services-marketing-title {
+    font-size: 14px;
+    margin: 0 0 8px;
+  }
+  .main-services-design-txt,
+  .main-services-development-txt,
+  .main-services-customization-txt,
+  .main-services-marketing-txt {
+    font-size: 10px;
+    line-height: 18px;
+    margin: 0 0 10px;
   }
 }
 .footer {
