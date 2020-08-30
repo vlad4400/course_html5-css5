@@ -254,6 +254,17 @@
   }
 }
 
+@media only screen and (max-width: 992px) {
+  .main {
+    &-services {
+      flex-wrap: wrap;
+      & > :nth-child(n) {
+        margin: 40px 5%;
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .header {
     &-content {
@@ -262,6 +273,14 @@
       }
       &-btn-right {
         display: none;
+      }
+    }
+  }
+  .main {
+    &-services {
+      & > :nth-child(n) {
+        margin: 40px auto;
+        width: 235px;
       }
     }
   }
