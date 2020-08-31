@@ -1914,6 +1914,14 @@ body {
   .main-projects-container-item {
     margin: 0 1% 30px;
   }
+  .main-presentation-video {
+    width: 100%;
+  }
+  .main-presentation-wrapper {
+    left: 30%;
+    right: 30%;
+    top: 18%;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .main-screenshots {
@@ -1924,6 +1932,20 @@ body {
     padding: 10px;
     margin: 0 auto;
     min-height: 100px;
+  }
+  .main-presentation-wrapper {
+    left: 20%;
+    right: 20%;
+    top: 16%;
+  }
+  .main-presentation-wrapper-btn {
+    margin: 0px 0 18px 0;
+  }
+  .main-presentation-wrapper-title {
+    margin: 0 0 10px 0;
+  }
+  .main-presentation-wrapper-text {
+    margin: 0 0 20px 0;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -1941,6 +1963,21 @@ body {
   }
   .main-screenshots-backimg {
     margin: 0;
+  }
+  .main-presentation-wrapper {
+    left: 16%;
+    right: 16%;
+    top: 6%;
+  }
+  .main-presentation-wrapper-btn {
+    margin: 0px 0 10px 0;
+  }
+  .main-presentation-wrapper-title {
+    margin: 0 0 7px 0;
+  }
+  .main-presentation-wrapper-text {
+    margin: 0 0 13px 0;
+    line-height: 21px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1965,6 +2002,9 @@ body {
     flex-direction: column;
     align-items: stretch;
   }
+  .main-presentation-wrapper-text {
+    display: none;
+  }
 }
 @media only screen and (max-width: 576px) {
   .main-services {
@@ -1980,6 +2020,9 @@ body {
   }
   .main-screenshots-backimg {
     margin: 0;
+  }
+  .main-presentation {
+    display: none;
   }
 }
 @media only screen and (max-width: 480px) {
