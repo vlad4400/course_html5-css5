@@ -360,6 +360,13 @@
 
 @media only screen and (max-width: 1920px) {
   .footer {
+    &-info {
+      padding: 2% 5%;
+      justify-content: center;
+      & > :nth-child(n) {
+        margin: 0 10px;
+      }
+    }
     &-copyright {
       padding-left: 15%;
       padding-right: 15%;
@@ -369,6 +376,12 @@
 
 @media only screen and (max-width: 1200px) {
   .footer {
+    &-info {
+      flex-wrap: wrap;
+      & > :nth-child(n) {
+        margin: 4% 4%;
+      }
+    }
     &-copyright {
       padding-left: 5%;
       padding-right: 5%;
@@ -388,6 +401,9 @@
 
 @media only screen and (max-width: 480px) {
   .footer {
+    &-info {
+      display: none;
+    }
     &-copyright {
       &-left {
         flex-direction: column;

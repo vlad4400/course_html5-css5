@@ -2626,12 +2626,25 @@ body {
   margin: 0 0 0 20px;
 }
 @media only screen and (max-width: 1920px) {
+  .footer-info {
+    padding: 2% 5%;
+    justify-content: center;
+  }
+  .footer-info > :nth-child(n) {
+    margin: 0 10px;
+  }
   .footer-copyright {
     padding-left: 15%;
     padding-right: 15%;
   }
 }
 @media only screen and (max-width: 1200px) {
+  .footer-info {
+    flex-wrap: wrap;
+  }
+  .footer-info > :nth-child(n) {
+    margin: 4% 4%;
+  }
   .footer-copyright {
     padding-left: 5%;
     padding-right: 5%;
@@ -2645,6 +2658,9 @@ body {
   }
 }
 @media only screen and (max-width: 480px) {
+  .footer-info {
+    display: none;
+  }
   .footer-copyright-left {
     flex-direction: column;
     width: 190px;
