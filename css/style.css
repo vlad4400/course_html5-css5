@@ -2005,6 +2005,50 @@ body {
     font-size: 14px;
     line-height: 25px;
   }
+  .main-counters {
+    padding: 30px 5% 30px 5%;
+    min-height: unset;
+  }
+  .main-counters-clients,
+  .main-counters-coffee,
+  .main-counters-posts,
+  .main-counters-likes,
+  .main-counters-launched {
+    margin: 0;
+    width: 20%;
+  }
+  .main-counters-clients-img,
+  .main-counters-coffee-img,
+  .main-counters-posts-img,
+  .main-counters-likes-img,
+  .main-counters-launched-img {
+    margin: 0 0 19px 0;
+  }
+  .main-counters-clients-img svg,
+  .main-counters-coffee-img svg,
+  .main-counters-posts-img svg,
+  .main-counters-likes-img svg,
+  .main-counters-launched-img svg {
+    width: 33px;
+    height: 33px;
+  }
+  .main-counters-clients-count,
+  .main-counters-coffee-count,
+  .main-counters-posts-count,
+  .main-counters-likes-count,
+  .main-counters-launched-count {
+    font-size: 34px;
+    line-height: 22px;
+    margin: 0 0 8px 0;
+  }
+  .main-counters-clients-caption,
+  .main-counters-coffee-caption,
+  .main-counters-posts-caption,
+  .main-counters-likes-caption,
+  .main-counters-launched-caption {
+    margin: 0 0 14px 0;
+    font-size: 12px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .main-services {
@@ -2043,6 +2087,50 @@ body {
   }
   .main-mobiledevices-features {
     margin: 35px 0 0 26%;
+  }
+  .main-counters {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .main-counters-clients,
+  .main-counters-coffee,
+  .main-counters-posts,
+  .main-counters-likes,
+  .main-counters-launched {
+    margin: 0;
+    width: 20%;
+  }
+  .main-counters-clients-img,
+  .main-counters-coffee-img,
+  .main-counters-posts-img,
+  .main-counters-likes-img,
+  .main-counters-launched-img {
+    margin: 0 0 15px 0;
+  }
+  .main-counters-clients-img svg,
+  .main-counters-coffee-img svg,
+  .main-counters-posts-img svg,
+  .main-counters-likes-img svg,
+  .main-counters-launched-img svg {
+    width: 23px;
+    height: 23px;
+  }
+  .main-counters-clients-count,
+  .main-counters-coffee-count,
+  .main-counters-posts-count,
+  .main-counters-likes-count,
+  .main-counters-launched-count {
+    font-size: 28px;
+    line-height: 18px;
+    margin: 0 0 6px 0;
+  }
+  .main-counters-clients-caption,
+  .main-counters-coffee-caption,
+  .main-counters-posts-caption,
+  .main-counters-likes-caption,
+  .main-counters-launched-caption {
+    margin: 0 0 10px 0;
+    font-size: 9px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -2085,6 +2173,9 @@ body {
   .main-mobiledevices-features-item:before {
     margin-left: -29px;
     padding: -20px;
+  }
+  .main-counters {
+    display: none;
   }
 }
 @media only screen and (max-width: 480px) {
