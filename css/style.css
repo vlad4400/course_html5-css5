@@ -2625,3 +2625,35 @@ body {
 .footer-copyright-right-platform {
   margin: 0 0 0 20px;
 }
+@media only screen and (max-width: 1920px) {
+  .footer-copyright {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .footer-copyright {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .footer-copyright {
+    padding: 2% 5%;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .footer-copyright-left {
+    flex-direction: column;
+    width: 190px;
+  }
+  .footer-copyright-right {
+    flex-direction: column;
+    width: 190px;
+  }
+  .footer-copyright-right-platform {
+    margin: 0;
+  }
+}
