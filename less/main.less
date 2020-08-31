@@ -834,6 +834,23 @@
         min-height: 120px;
       }
     }
+    &-projects {
+      padding-left: 5%;
+      padding-right: 5%;
+      &-text {
+        width: unset;
+        max-width: 800px;
+      }
+      &-menu {
+        flex-wrap: wrap;
+      }
+      &-container {
+        justify-content: center;
+        &-item {
+          margin: 0 1% 30px;
+        }
+      }
+    }
   }
 }
 
@@ -894,6 +911,12 @@
     &-textbox {
       display: none;
     }
+    &-projects {
+      &-menu {
+        flex-direction: column;
+        align-items: stretch;
+      }
+    }
   }
 }
 
@@ -938,6 +961,18 @@
           font-size: 10px;
           line-height: 18px;
           margin: 0 0 10px;
+        }
+      }
+    }
+    &-projects {
+      &-container {
+        &-item {
+          width: 90%;
+          margin: 0 auto 5px;
+          &-img {
+            height: unset;
+            width: 100%;
+          }
         }
       }
     }
